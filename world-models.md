@@ -1,4 +1,4 @@
-## World Models
+## [World Models](https://worldmodels.github.io/)
 
 TLDR; The authors trains a novel model based Reinforcement Learning agent. They use a VAE (V) model to encode state represenation, a MDN-RNN (M) model to predict the future and an CMA-ES (C) controller to take action in the environment. The three models are trained **independently**, without feedback from another. The VAE learns to encode 2D pixel representation of the game pixels into a latent vector _z_. This latent vector, along with corresponding action, is used to train the RNN, whose primary job is to predict the future state of the game based on it's hidden representation _h_. Finally, both the representation of current spatial representaion, _z_ and temporal representaion, _h_, are used by C, to take action in the environment.
 
