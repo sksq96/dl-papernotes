@@ -2,6 +2,7 @@
 
 TLDR; The authors trains a novel model based Reinforcement Learning agent. They use a VAE (V) model to encode state represenation, a MDN-RNN (M) model to predict the future and an CMA-ES (C) controller to take action in the environment. The three models are trained **independently**, without feedback from another. The VAE learns to encode 2D pixel representation of the game pixels into a latent vector _z_. This latent vector, along with corresponding action, is used to train the RNN, whose primary job is to predict the future state of the game based on it's hidden representation _h_. Finally, both the representation of current spatial representaion, _z_ and temporal representaion, _h_, are used by C, to take action in the environment.
 
+<img src="images/world-models/combined.png?raw=true" width="512">
 
 ### Key Points
 
@@ -18,6 +19,7 @@ TLDR; The authors trains a novel model based Reinforcement Learning agent. They 
 - CNN VAE uses environment observation frame as input
 - Output is compressed latent representation _z_, which stores spatial representation of the current time
 
+<img src="images/world-models/vae.png?raw=true" width="512">
 
 #### MDN-RNN (M)
 
@@ -30,6 +32,7 @@ TLDR; The authors trains a novel model based Reinforcement Learning agent. They 
 - RNN represents temporal representations
 	- an alternative to stacking past frames, as in other RL menthods
 
+<img src="images/world-models/rnn.png?raw=true" width="512">
 
 #### Contoller C
 
@@ -51,7 +54,6 @@ TLDR; The authors trains a novel model based Reinforcement Learning agent. They 
 - RNN
 	- 20 epochs
 	- 256 hidden units
-
 
 ### Thoughts
 
