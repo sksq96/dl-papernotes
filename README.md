@@ -2,6 +2,7 @@
 
 #### 2018
 
+- Efficient Neural Audio Synthesis, WaveRNN [[ArXiv](http://arxiv.org/abs/1802.08435)] [NLP]
 - [World Models](world-models.md) [[ArXiv](https://arxiv.org/abs/1803.10122v3)] [RL]
 - MemGEN: Memory is All You Need [[ArXiv](http://arxiv.org/abs/1803.11203v1)] [AdHoc]
 
