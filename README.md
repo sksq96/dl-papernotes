@@ -12,6 +12,10 @@
 - [Neural Episodic Control](neural-episodic-control.md) [[ArXiv](https://arxiv.org/abs/1703.01988)] [RL]
 - Rainbow: Combining Improvements in Deep Reinforcement Learning [[ArXiv](http://arxiv.org/abs/1710.02298v1)] [RL]
 
+#### 2016
+
+- Pixel Recurrent Neural Networks [[ArXiv](https://arxiv.org/abs/1601.06759)] [CV]
+
 #### 2014
 
 - Sequence to Sequence Learning with Neural Networks [[ArXiv](https://arxiv.org/abs/1409.3215v3)] [NLP]
