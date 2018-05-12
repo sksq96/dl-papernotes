@@ -16,6 +16,7 @@
 
 - Pixel Recurrent Neural Networks [[ArXiv](https://arxiv.org/abs/1601.06759)] [CV]
 - WaveNet: A Generative Model for Raw Audio [[ArXiv](https://arxiv.org/abs/1609.03499)] [NLP]
+- Neural Machine Translation in Linear Time, ByteNet [[ArXiv](https://arxiv.org/abs/1610.10099)] [NLP]
 
 #### 2014
 
